@@ -1,10 +1,9 @@
-import Hero from "./components/Hero";
-
 function App() {
   return (
-    <>
-      <Hero />
-    </>
+    <div>
+      <h1>Kinavita</h1>
+      <p>Über Bewegung im Dialog bleiben.</p>
+    </div>
   );
 }
 
