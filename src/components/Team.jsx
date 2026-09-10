@@ -1,3 +1,9 @@
+<img
+  src="https://kinavita.onrender.com/rina.jpg"
+  alt="Test"
+  width="300"
+/>
+
 export default function Team() {
   return (
     <section className="py-24 bg-white">
