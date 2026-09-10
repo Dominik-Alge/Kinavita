@@ -50,9 +50,7 @@ export default function Hero() {
 
               <div className="text-center text-white">
 
-                <div className="text-7xl">
-                  🌿
-                </div>
+                /rina.jpg
 
                 <p className="mt-4 text-xl">
                   Bild folgt
