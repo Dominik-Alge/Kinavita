@@ -22,11 +22,10 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
-
             <a
               href="#angebote"
-              className="rounded-2xl bg-emerald-700 px-8 py-4 font-semibold text-white shadow-lg hover:bg-emerald-800"
-rder-emerald-700 px-8 py-4 font-semibold text-emerald-700 hover:bg-emerald-50-br from-emerald-600 to-amber-300 shadow-2xl flex items-center justify-center">
+              className="rounded-2xl bg-emerald-700 px-8 py-4 font-semibold text-white shadowe="rounded-2xl border-2 border-emerald-700 px-8 py-4 font-semibold text-emerald-700 hover:bg-emerald-50"
+          ald-600 to-amber-300 shadow-2xl flex items-center justify-center">
           <div className="text-center text-white">
             <div className="text-6xl mb-4">🌿</div>
             <p className="text-xl">Bild folgt</p>
