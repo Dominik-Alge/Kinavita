@@ -1,9 +1,1 @@
-function Services() {
-  return (
-    <section>
-      <h2>Angebote</h2>
-    </section>
-  );
-}
-
-export default Services;
+<section id="angebote" className="py-24 px-6">
