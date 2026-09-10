@@ -16,8 +16,8 @@ function App() {
       <WhoAreYou />
       <Problems />
       <WhyKinavita />
-      <Services />
       <Team />
+      <Services />
       <References />
       <Process />
       <Contact />
