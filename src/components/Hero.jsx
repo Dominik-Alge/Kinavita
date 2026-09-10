@@ -46,4 +46,4 @@ export default function Hero() {
 
           <div>
 
-            <div className="h-[500px] rounded-[40px] bg-gradient-to-br from-emerald-600 to-amber-300 shadow-2xl flex items-center justify-center
+            <div className="h-[500px] rounded-[40px] bg-gradient-to-br from-emerald-600 to-amber-300 shadow-2xl flex items-center justify-center">
