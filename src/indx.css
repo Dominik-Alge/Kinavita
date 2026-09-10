@@ -11,3 +11,33 @@ body {
   background: var(--beige);
   color: var(--dark);
 }
+.hero-blur {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  z-index: -1;
+}
+
+.hero-blur-1 {
+  width: 400px;
+  height: 400px;
+
+  background: #6f8f76;
+
+  top: 100px;
+  right: 100px;
+
+  opacity: 0.2;
+}
+
+.hero-blur-2 {
+  width: 350px;
+  height: 350px;
+
+  background: #d79a78;
+
+  bottom: 50px;
+  left: 50px;
+
+  opacity: 0.15;
+}
