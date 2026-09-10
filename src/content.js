@@ -18,23 +18,6 @@ export const content = {
     ],
   },
 
-  team: [
-    {
-      name: "Rina",
-      role: "Kinaesthetics Trainerin Stufe 2",
-      description:
-        "Begleitung von Institutionen, Teams und Einzelpersonen.",
-      image: "/placeholder.jpg",
-    },
-    {
-      name: "Name folgt",
-      role: "Kinaesthetics Trainerin",
-      description:
-        "Schwerpunkte in Praxisbegleitung und Gesundheitsförderung.",
-      image: "/placeholder.jpg",
-    },
-  ],
-
   values: [
     {
       title: "Praxisorientiert",
@@ -58,3 +41,22 @@ export const content = {
     },
   ],
 };
+
+export const team = [
+  {
+    id: 1,
+    name: "Rina",
+    role: "Kinaesthetics Trainerin Stufe 2",
+    description:
+      "Begleitung von Institutionen, Teams und Einzelpersonen.",
+    image: "/placeholder.jpg",
+  },
+  {
+    id: 2,
+    name: "Name folgt",
+    role: "Kinaesthetics Trainerin",
+    description:
+      "Schwerpunkte in Praxisbegleitung und Gesundheitsförderung.",
+    image: "/placeholder.jpg",
+  },
+];
