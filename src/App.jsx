@@ -6,7 +6,7 @@ import WhyKinavita from "./components/WhyKinavita";
 import Team from "./components/Team";
 import References from "./components/References";
 import Process from "./components/Process";
-import Contact from "./components/Contact";
+import Contact from "./components/contact";
 
 function App() {
   return (
