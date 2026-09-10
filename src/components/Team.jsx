@@ -21,8 +21,9 @@ export default function Team() {
         <div className="mt-16 grid gap-10 lg:grid-cols-2">
           {/* Rina */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
-            /rina.jpg
 
+            /rina.jpg
+          
             <div className="p-8">
               <h3 className="text-3xl font-bold text-slate-900">
                 Alge Rina
@@ -68,9 +69,10 @@ export default function Team() {
           </div>
 
           {/* Barbara */}
-          <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
+          <div className="p-8"><div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
+        
             /barbara.jpg
-
+          
             <div className="p-8">
               <h3 className="text-3xl font-bold text-slate-900">
                 Morciano-Alvarez Barbara
