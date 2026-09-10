@@ -22,12 +22,9 @@ export default function Team() {
         <div className="mt-16 grid gap-10 lg:grid-cols-2">
 
           {/* Rina */}
-          <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
+          /rina.jpg<div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
-            <Image
-              src="/rina.jpg"
-              alt="Alge Rina"
-              width
+            /rina.jpg
 
             <div className="p-8">
 
@@ -82,13 +79,8 @@ export default function Team() {
           {/* Barbara */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
-            <Image
-              src="/barbara.jpg"
-              alt="Barbara Morciano-Alvarez"
-              width={800}
-              height={600}
+            /barbara.jpg
   
-
             <div className="p-8">
 
               <h3 className="text-3xl font-bold text-slate-900">
