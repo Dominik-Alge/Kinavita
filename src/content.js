@@ -1,4 +1,3 @@
-export const team = [
 export const content = {
   hero: {
     title: "Kinavita",
