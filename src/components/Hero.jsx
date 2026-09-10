@@ -9,6 +9,12 @@ export default function Hero() {
 
         <p className="mt-4 text-2xl text-slate-700">
           Über Bewegung im Dialog bleiben.
+
+          <div className="mt-10">
+          <button className="bg-emerald-700 text-white px-8 py-4 rounded-2xl shadow-lg">
+            Angebot entdecken
+          </button>
+        </div>
         </p>
 
       </div>
