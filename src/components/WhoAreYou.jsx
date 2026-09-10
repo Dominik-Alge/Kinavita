@@ -4,7 +4,6 @@ export default function WhoAreYou() {
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="text-center">
-
           <h2 className="text-5xl font-bold text-slate-900">
             Für wen suchen Sie Unterstützung?
           </h2>
@@ -13,16 +12,12 @@ export default function WhoAreYou() {
             Jede Situation bringt andere Herausforderungen mit sich.
             Wählen Sie den Bereich, der zu Ihnen passt.
           </p>
-
         </div>
 
         <div className="mt-16 grid gap-8 md:grid-cols-3">
 
-          <div className="rounded-3xl bg-slate-50 p-8 shadow-lg hover:-translate-y-2 transition">
-
-            <div className="text-5xl mb-4">
-              🏥
-            </div>
+          <div className="rounded-3xl bg-slate-50 p-8 shadow-lg">
+            <div className="text-5xl mb-4">🏥</div>
 
             <h3 className="text-2xl font-bold">
               Institutionen & Stiftungen
@@ -33,14 +28,10 @@ export default function WhoAreYou() {
               Ausfälle reduzieren und
               Pflegequalität stärken.
             </p>
-
           </div>
 
-          <div className="rounded-3xl bg-slate-50 p-8 shadow-lg hover:-translate-y-2 transition">
-
-            <div className="text-5xl mb-4">
-              👩‍⚕️
-            </div>
+          <div className="rounded-3xl bg-slate-50 p-8 shadow-lg">
+            <div className="text-5xl mb-4">👩‍⚕️</div>
 
             <h3 className="text-2xl font-bold">
               Mitarbeitende
@@ -51,14 +42,10 @@ export default function WhoAreYou() {
               den Körper schonen und
               Bewegung besser verstehen.
             </p>
-
           </div>
 
-          <div className="rounded-3xl bg-slate-50 p-8 shadow-lg hover:-translate-y-2 transition">
-
-            <div className="text-5xl mb-4">
-              🏡
-            </div>
+          <div className="rounded-3xl bg-slate-50 p-8 shadow-lg">
+            <div className="text-5xl mb-4">🏡</div>
 
             <h3 className="text-2xl font-bold">
               Angehörige
@@ -69,7 +56,6 @@ export default function WhoAreYou() {
               Kompetenzen aufbauen und
               Selbstständigkeit erhalten.
             </p>
-
           </div>
 
         </div>
