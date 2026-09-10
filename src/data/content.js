@@ -1,3 +1,16 @@
+export const content = {
+  approach: {
+    title: "Unser Ansatz",
+    text: "Kinaesthetics unterstützt Menschen dabei, Bewegung bewusster wahrzunehmen und vorhandene Ressourcen gezielt zu nutzen.",
+    steps: [
+      "Wahrnehmen",
+      "Verstehen",
+      "Anwenden",
+      "Weiterentwickeln",
+    ],
+  },
+};
+
 export const team = [
   {
     id: 1,
