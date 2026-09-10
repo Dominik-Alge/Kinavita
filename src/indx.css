@@ -1,0 +1,13 @@
+:root {
+  --green: #6f8f76;
+  --beige: #f8f5ef;
+  --accent: #d79a78;
+  --dark: #2d3748;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: var(--beige);
+  color: var(--dark);
+}
