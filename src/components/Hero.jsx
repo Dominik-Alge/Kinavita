@@ -11,14 +11,6 @@ export default function Hero() {
           Über Bewegung im Dialog bleiben.
         </p>
 
-        <div className="mt-8">
-
-          <button className="rounded-2xl bg-emerald-700 px-8 py-4 text-white">
-            Angebot entdecken
-          </button>
-
-        </div>
-
       </div>
     </section>
   );
