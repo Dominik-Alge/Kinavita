@@ -7,6 +7,7 @@ import Team from "./components/Team";
 import References from "./components/References";
 import Process from "./components/Process";
 import Contact from "./components/contact";
+import WhoAreYou from "./components/WhoAreYou";
 
 function App() {
   return (
