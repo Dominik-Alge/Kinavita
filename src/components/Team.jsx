@@ -1,4 +1,3 @@
-import Image from "next/image";
 export default function Team() {
   return (
     <section className="py-24 bg-white">
