@@ -47,3 +47,26 @@ export default function Hero() {
           <div>
 
             <div className="h-[500px] rounded-[40px] bg-gradient-to-br from-emerald-600 to-amber-300 shadow-2xl flex items-center justify-center">
+
+              <div className="text-center text-white">
+
+                <div className="text-7xl">
+                  🌿
+                </div>
+
+                <p className="mt-4 text-xl">
+                  Bild folgt
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  );
+}
