@@ -1,54 +1,48 @@
 export default function Contact() {
   return (
     <section id="kontakt" className="py-24 bg-slate-50">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-4xl mx-auto px-6 text-center">
 
-        <div className="text-center">
+        <span className="text-emerald-700 font-semibold">
+          Kontakt
+        </span>
 
-          <span className="text-emerald-700 font-semibold">
-            Kontakt
-          </span>
+        <h2 className="mt-4 text-5xl font-bold text-slate-900">
+          Lassen Sie uns ins Gespräch kommen
+        </h2>
 
-          <h2 className="mt-4 text-5xl font-bold text-slate-900">
-            Lassen Sie uns ins Gespräch kommen
-          </h2>
+        <p className="mt-6 text-lg text-slate-600">
+          Sie möchten mehr über Kinavita erfahren oder eine
+          unverbindliche Anfrage stellen?
+          Wir freuen uns auf Ihre Kontaktaufnahme.
+        </p>
 
-          <p className="mt-6 text-lg text-slate-600 max-w-3xl mx-auto">
-            Sie möchten mehr über unsere Angebote erfahren oder eine
-            unverbindliche Anfrage stellen? Wir freuen uns auf Ihre
-            Kontaktaufnahme.
+        <div className="mt-12 bg-white rounded-3xl p-8 shadow-lg">
+
+          <p className="text-xl font-semibold text-slate-900">
+            Alge Rina
           </p>
+
+          <p className="mt-4 text-slate-600">
+            📧 rina.alge@kinaesthetics-net.ch
+          </p>
+
+          <p className="mt-2 text-slate-600">
+            📱 +41 79 709 65 59
+          </p>
+
+          <div className="mt-8">
+            <a
+              href="mailto:rina.alge@kinaesthetics-net.ch"
+              className="inline-block rounded-xl bg-emerald-700 px-6 py-4 text-white font-semibold hover:bg-emerald-800 transition"
+            >
+              E-Mail schreiben
+            </a>
+          </div>
 
         </div>
 
-        <div className="mt-16 grid gap-12 lg:grid-cols-2">
-
-          {/* Kontaktinformationen */}
-
-          <div className="bg-white rounded-3xl p-8 shadow-lg">
-
-            <h3 className="text-3xl font-bold text-slate-900">
-              Persönlicher Kontakt
-            </h3>
-
-            <p className="mt-6 text-slate-600">
-              Alge Rina
-            </p>
-
-            <div className="mt-8 space-y-4 text-lg">
-
-              <p>
-                📧 rina.alge@kinaesthetics-net.ch
-              </p>
-
-              <p>
-                📱 +41 79 709 65 59
-              </p>
-
-              <p>
-                📍 Au SG
-              </p>
-
-            </div>
-
-            <div className
+      </div>
+    </section>
+  );
+}
