@@ -32,8 +32,8 @@ export default function Process() {
             Ablauf
           </span>
 
-          <h2 className="mt-4 text-5xl font-bold text-slate-900">
-            So läuft die Zusammenarbeit ab
+          <h2 className="mt-4 text-5xl font-bold text-red-600">
+            TEST PROCESS 123
           </h2>
 
           <p className="mt-6 text-lg text-slate-600 max-w-3xl mx-auto">
