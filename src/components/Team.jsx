@@ -23,12 +23,10 @@ export default function Team() {
 
           {/* Rina */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
-
             <img
               src="/rina.jpg"
               alt="Alge Rina"
               class
-
             <div className="p-8">
 
               <h3 className="text-3xl font-bold text-slate-900">
@@ -77,11 +75,9 @@ export default function Team() {
 
           {/* Barbara */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
-
             <img
               src="/barbara.jpg"
-              alt">
-
+              alt="Barbara Morciano-Alvarez
             <div className="p-8">
 
               <h3 className="text-3xl font-bold text-slate-900">
