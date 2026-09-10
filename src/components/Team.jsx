@@ -21,9 +21,10 @@ export default function Team() {
         <div className="mt-16 grid gap-10 lg:grid-cols-2">
           {/* Rina */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
-            <img
-              src="/rina.jpg"
-              alt="Alge <h3 className="text-3xl font-bold text-slate-900">
+            /rina.jpg
+
+            <div className="p-8">
+              <h3 className="text-3xl font-bold text-slate-900">
                 Alge Rina
               </h3>
 
@@ -104,7 +105,7 @@ export default function Team() {
                   Kinaesthetics Profil
                 </a>
 
-                <a
+                                <a
                   href="https://www.linkedin.com/in/barbara-morciano-alvarez-0872451b8/"
                   target="_blank"
                   rel="noopener noreferrer"
