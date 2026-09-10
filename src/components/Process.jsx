@@ -23,7 +23,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section className="py-24 bg-red-100">
+    <section className="py-24 bg-pink-100">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="text-center">
@@ -32,8 +32,8 @@ export default function Process() {
             Ablauf
           </span>
 
-          <h2 className="mt-4 text-5xl font-bold text-red-600">
-            TEST PROCESS 123
+          <h2 className="mt-4 text-5xl font-bold text-slate-900">
+            So läuft die Zusammenarbeit ab
           </h2>
 
           <p className="mt-6 text-lg text-slate-600 max-w-3xl mx-auto">
