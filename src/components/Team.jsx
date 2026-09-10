@@ -28,7 +28,7 @@ export default function Team() {
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
             <img
-              src="/rina.jpg"
+              src="<imga.jpg"
               alt="Alge Rina"
               className="w-full h-96
           
@@ -88,7 +88,11 @@ export default function Team() {
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
             <img
-              src="/barbara.jpg"
+              src="<img
+                src="/barbara.jpg"
+                alt="Barbara Morciano-Alvarez"
+                className="w-full h-96 object-cover"
+              />"
               alt="Barbara Morciano-Alvarez"
               className="w-full h-96
           
@@ -151,3 +155,4 @@ export default function Team() {
     </section>
   );
 }
+
