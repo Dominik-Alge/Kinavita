@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Team() {
   return (
     <section className="py-24 bg-white">
@@ -24,7 +25,10 @@ export default function Team() {
           {/* Rina */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
-            src="/rina.jpg"
+            <Image
+              src="/rina.jpg"
+              alt="Alge Rina"
+              width
 
             <div className="p-8">
 
@@ -79,7 +83,12 @@ export default function Team() {
           {/* Barbara */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
-            src="/barbara.jpg"
+            <Image
+              src="/barbara.jpg"
+              alt="Barbara Morciano-Alvarez"
+              width={800}
+              height={600}
+  
 
             <div className="p-8">
 
