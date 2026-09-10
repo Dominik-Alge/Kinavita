@@ -4,7 +4,6 @@ export default function Team() {
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="text-center">
-
           <span className="text-emerald-700 font-semibold">
             Das Team hinter Kinavita
           </span>
@@ -18,20 +17,15 @@ export default function Team() {
             und einer gemeinsamen Leidenschaft für Bewegung,
             Gesundheitsförderung und Kinaesthetics.
           </p>
-
         </div>
 
         <div className="mt-16 grid gap-10 lg:grid-cols-2">
 
           {/* Rina */}
-
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
-            <img
-              src="<imga.jpg"
-              alt="Alge Rina"
-              className="w-full h-96
-          
+            /rina.jpg
+
             <div className="p-8">
 
               <h3 className="text-3xl font-bold text-slate-900">
@@ -44,11 +38,9 @@ export default function Team() {
               </p>
 
               <div className="mt-6 space-y-2 text-slate-600">
-
                 <p>✅ Ausbildung Stufe 1 Winterthur I 22</p>
                 <p>✅ Ausbildung Stufe 2 Winterthur 25</p>
                 <p>✅ Kurssprache: Deutsch</p>
-
               </div>
 
               <p className="mt-6 text-slate-600">
@@ -58,7 +50,6 @@ export default function Team() {
               </p>
 
               <div className="mt-8 flex gap-4">
-
                 <a
                   href="https://www.kinaesthetics.ch/trainerinnenliste.cfm?trainer_id=7781"
                   target="_blank"
@@ -69,34 +60,25 @@ export default function Team() {
                 </a>
 
                 <a
-                href="https://www.linkedin.com/in/rina-alge-64511b386/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100"
-              >
-                LinkedIn
-              </a>
-
+                  href="https://www.linkedin.com/in/rina-alge-64511b386/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100"
+                >
+                  LinkedIn
+                </a>
               </div>
 
             </div>
-
           </div>
 
           {/* Barbara */}
-
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
-            <img
-              src="<img
-                src="/barbara.jpg"
-                alt="Barbara Morciano-Alvarez"
-                className="w-full h-96 object-cover"
-              />"
-              alt="Barbara Morciano-Alvarez"
-              className="w-full h-96
-          
+            /barbara.jpg
+
             <div className="p-8">
+
               <h3 className="text-3xl font-bold text-slate-900">
                 Morciano-Alvarez Barbara
               </h3>
@@ -107,13 +89,11 @@ export default function Team() {
               </p>
 
               <div className="mt-6 space-y-2 text-slate-600">
-
                 <p>✅ Ausbildung Stufe 1 Winterthur I 22</p>
                 <p>✅ Ausbildung Stufe 2 Winterthur 25</p>
                 <p>✅ Deutsch</p>
                 <p>✅ Italienisch</p>
                 <p>✅ Spanisch</p>
-
               </div>
 
               <p className="mt-6 text-slate-600">
@@ -124,7 +104,6 @@ export default function Team() {
               </p>
 
               <div className="mt-8 flex gap-4">
-
                 <a
                   href="https://www.kinaesthetics.ch/trainerinnenliste.cfm?trainer_id=7801"
                   target="_blank"
@@ -135,18 +114,16 @@ export default function Team() {
                 </a>
 
                 <a
-                href="https://www.linkedin.com/in/barbara-morciano-alvarez-0872451b8/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100"
-              >
-                LinkedIn
-              </a>
-
+                  href="https://www.linkedin.com/in/barbara-morciano-alvarez-0872451b8/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100"
+                >
+                  LinkedIn
+                </a>
               </div>
 
             </div>
-
           </div>
 
         </div>
@@ -155,4 +132,3 @@ export default function Team() {
     </section>
   );
 }
-
