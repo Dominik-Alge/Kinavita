@@ -1,3 +1,7 @@
+git add package.json package-lock.json
+git commit -m "Install Tailwind CSS"
+git push
+
 {
   "name": "kinavita",
   "private": true,
