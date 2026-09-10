@@ -24,7 +24,10 @@ export default function Team() {
           {/* Rina */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
-            /rina.jpg
+            <img
+              src="/rina.jpg"
+              alt="Alge Rina"
+              class
 
             <div className="p-8">
 
@@ -75,7 +78,9 @@ export default function Team() {
           {/* Barbara */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
-            /barbara.jpg
+            <img
+              src="/barbara.jpg"
+              alt">
 
             <div className="p-8">
 
