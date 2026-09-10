@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <Hero />
+      <WhoAreYou />
       <Problems />
       <Services />
       <Approach />
