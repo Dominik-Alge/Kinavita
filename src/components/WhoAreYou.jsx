@@ -22,7 +22,11 @@ export default function WhoAreYou() {
 
           <button
             onClick={() => setSelected("institution")}
-            className="rounded-3xl bg-slate-50 p-8 shadow-lg hover:-translate-y-2 transition text-left"
+            className={`rounded-3xl p-8 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition text-left cursor-pointer border-2 ${
+              selected === "institution"
+                ? "bg-emerald-50 border-emerald-500"
+                : "bg-slate-50 border-transparent"
+            }`}
           >
             <div className="text-5xl mb-4">🏥</div>
 
@@ -39,7 +43,11 @@ export default function WhoAreYou() {
 
           <button
             onClick={() => setSelected("mitarbeiter")}
-            className="rounded-3xl bg-slate-50 p-8 shadow-lg hover:-translate-y-2 transition text-left"
+            className={`rounded-3xl p-8 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition text-left cursor-pointer border-2 ${
+              selected === "mitarbeiter"
+                ? "bg-emerald-50 border-emerald-500"
+                : "bg-slate-50 border-transparent"
+            }`}
           >
             <div className="text-5xl mb-4">👩‍⚕️</div>
 
@@ -56,7 +64,11 @@ export default function WhoAreYou() {
 
           <button
             onClick={() => setSelected("angehoerige")}
-            className="rounded-3xl bg-slate-50 p-8 shadow-lg hover:-translate-y-2 transition text-left"
+            className={`rounded-3xl p-8 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition text-left cursor-pointer border-2 ${
+              selected === "angehoerige"
+                ? "bg-emerald-50 border-emerald-500"
+                : "bg-slate-50 border-transparent"
+            }`}
           >
             <div className="text-5xl mb-4">🏡</div>
 
