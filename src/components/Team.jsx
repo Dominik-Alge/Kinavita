@@ -57,13 +57,22 @@ export default function Team() {
               <div className="mt-8 flex gap-4">
 
                 <a
-                  href="https://www.kinaesthetics.ch/trainerinnenliste.cfm?trainer_id=7801"
+                  href="https://www.kinaesthetics.ch/trainerinnenliste.cfm?trainer_id=7781"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-3 bg-emerald-700 text-white rounded-xl"
                 >
                   Kinaesthetics Profil
                 </a>
+
+                <a
+                href="https://www.linkedin.com/in/rina-alge-64511b386/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100"
+              >
+                LinkedIn
+              </a>
 
               </div>
 
@@ -115,6 +124,15 @@ export default function Team() {
                 >
                   Kinaesthetics Profil
                 </a>
+
+                <a
+                href="https://www.linkedin.com/in/barbara-morciano-alvarez-0872451b8/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100"
+              >
+                LinkedIn
+              </a>
 
               </div>
 
