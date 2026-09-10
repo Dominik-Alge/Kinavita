@@ -27,9 +27,9 @@ export default function Team() {
 
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
-          /rina.jpg
-
-            <div className="p-8">
+            /rina.jpg
+          
+              <div className="p-8">
 
               <h3 className="text-3xl font-bold text-slate-900">
                 Alge Rina
@@ -85,9 +85,8 @@ export default function Team() {
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
             /barbara.jpg
-            
-            <div className="p-8">
-
+          
+              <div className="p-8">
               <h3 className="text-3xl font-bold text-slate-900">
                 Morciano-Alvarez Barbara
               </h3>
