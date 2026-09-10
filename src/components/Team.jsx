@@ -27,7 +27,7 @@ export default function Team() {
 
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
-            /rina.jpg
+          /rina.jpg
 
             <div className="p-8">
 
