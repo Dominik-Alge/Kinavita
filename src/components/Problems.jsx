@@ -47,4 +47,4 @@ export default function Problems() {
                 {item.icon}
               </div>
 
-              <h3
+              <h3>
