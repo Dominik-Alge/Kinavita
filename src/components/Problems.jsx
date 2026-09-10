@@ -2,18 +2,18 @@ const challenges = [
   {
     icon: "🩺",
     title: "Körperliche Belastung",
-    text: "Rücken- und Bewegungsbeschwerden gehören zu den häufigsten Belastungen im Pflege- und Betreuungsalltag.",
+    text: "Rücken- und Bewegungsbeschwerden gehören zu den häufigsten Belastungen im Pflege- und Betreuungsalltag."
   },
   {
     icon: "📉",
     title: "Belastungsbedingte Ausfälle",
-    text: "Jeder Ausfall belastet Mitarbeitende, Teams, Qualität und Organisation.",
+    text: "Jeder Ausfall belastet Mitarbeitende, Teams, Qualität und Organisation."
   },
   {
     icon: "👥",
     title: "Fachkräftemangel",
-    text: "Gesunde und langfristig arbeitsfähige Mitarbeitende werden immer wichtiger.",
-  },
+    text: "Gesunde und langfristig arbeitsfähige Mitarbeitende werden immer wichtiger."
+  }
 ];
 
 export default function Problems() {
@@ -47,19 +47,4 @@ export default function Problems() {
                 {item.icon}
               </div>
 
-              <h3 className="text-2xl font-bold text-slate-900">
-                {item.title}
-              </h3>
-
-              <p className="mt-4 text-slate-600">
-                {item.text}
-              </p>
-            </div>
-          ))}
-
-        </div>
-
-      </div>
-    </section>
-  );
-}
+              <h3
