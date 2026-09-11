@@ -23,7 +23,7 @@ export default function Team() {
         <div className="mt-16 grid gap-10 lg:grid-cols-2">
 
           {/* Rina */}
-          <div className="bg-slate-50 rou*ded-3xl shadow-xl overflow-hidden"*
+          <div className="bg-slate-50 rouded-3xl shadow-xl overflow-hidden"
             <img
               src="https://raw.githubusercontent.com/Dominik-Alge/Kinavita/main/public/rina.jpg"
               alt="*lge Rina"
