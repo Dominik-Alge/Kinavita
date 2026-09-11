@@ -183,3 +183,37 @@ export default function Team() {
                         <h4 className="font-bold text-slate-800 mb-1">Meilensteine:</h4>
                         <p>• Seit 2022: Spezialistin in angewandter Kinaesthetics</p>
                         <p>• 2022 - 2025: Kinaesthetics-Trainer-Ausbildung (Stufe 1 & 2)</p>
+                        <p>• Dipl. Pflegefachfrau HF mit jahrzehntelanger Expertise</p>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              {/* Buttons Barbara */}
+              <div className="mt-8 flex flex-wrap gap-4 pt-4 border-t border-slate-100">
+                <a
+                  href="https://kinaesthetics.ch"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 px-5 py-3 bg-emerald-700 text-white rounded-xl font-medium hover:bg-emerald-800 transition text-center text-sm shadow-sm"
+                >
+                  Offizielles Trainer-Profil
+                </a>
+                <a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100 font-medium transition text-center text-sm text-slate-700"
+                >
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+}
