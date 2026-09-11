@@ -24,7 +24,10 @@ export default function Team() {
 
           {/* Rina */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
-            {public/rina.jpg}
+            <img
+              src="https://raw.githubusercontent.com/Dominik-Alge/Kinavita/main/public/rina.jpg"
+                alt="Alge Rina"
+              />
 
               <p className="mt-2 text-emerald-700 font-semibold">
                 Spezialistin für angewandte Kinästhetik
@@ -73,7 +76,8 @@ export default function Team() {
           {/* Barbara */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
-            {public/barbera.jpg}
+            <img
+              src="https://raw.githubusercontent.com/Dominik-Alge/Kinavita/main/public/rina.jpg"/>
               
               <h3 className="text-3xl font-bold text-slate-900">
                 Morciano-Alvarez Barbara
