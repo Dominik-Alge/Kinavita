@@ -1,4 +1,13 @@
 export default function Hero() {
+  // Funktion für das weiche Scrollen zu den Abschnitten
+  const scrollToSection = (e, id) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-amber-50">
       <div className="max-w-7xl mx-auto px-6 py-24">
@@ -6,7 +15,6 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
 
           <div>
-
             <span className="inline-block rounded-full bg-white px-4 py-2 shadow text-sm font-medium text-emerald-700">
               Kinaesthetics & Gesundheitsförderung
             </span>
@@ -30,7 +38,6 @@ export default function Hero() {
               nutzen und gesundes Arbeiten langfristig zu fördern.
             </p>
 
-            {/* Buttons mit funktionierenden Sprungmarken */}
             <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="#angebote"
@@ -50,24 +57,15 @@ export default function Hero() {
             </div>
           </div>
 
+          {/* Der Bild-Container */}
           <div>
-
-            <div className="h-[500px] rounded-[40px] bg-gradient-to-br from-emerald-600 to-amber-300 shadow-2xl flex items-center justify-center">
-
-              <div className="text-center text-white">
-
-                <div className="text-7xl">
-                  🌿
-                 </div>
-
-                <p className="mt-4 text-xl">
-                  Bild folgt
-                </p>
-
-              </div>
-
+            <div className="h-[500px] w-full rounded-[40px] shadow-2xl overflow-hidden relative">
+              <img 
+                src="/hero-pflege.jpg" 
+                alt="Pflegefachkraft bei der professionellen Unterstützung und Bewegung im Dialog" 
+                className="w-full h-full object-cover object-center"
+              />
             </div>
-
           </div>
 
         </div>
