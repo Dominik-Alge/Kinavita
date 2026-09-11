@@ -123,7 +123,7 @@ export default function Team() {
             <div className="bg-slate-50 rounded-3xl shadow-xl border border-slate-100 overflow-hidden flex flex-col h-full">
               <div className="w-full h-80 bg-slate-200 overflow-hidden relative">
                 <img 
-                  src="/barbara.jpg" //  Geändert auf "barbara"
+                  src="/barbara.jpg"
                   alt="Morciano-Alvarez Barbara" 
                   className="w-full h-full object-cover object-center" 
                 />
