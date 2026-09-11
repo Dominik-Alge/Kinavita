@@ -23,11 +23,13 @@ export default function Team() {
         <div className="mt-16 grid gap-10 lg:grid-cols-2">
 
           {/* Rina */}
-          <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
+          <div>
             <img
               src="https://raw.githubusercontent.com/Dominik-Alge/Kinavita/main/public/rina.jpg"
-                alt="Alge Rina"
-              />
+              alt="Alge Rina"
+              style={{ width: "300px" }}
+            />
+          </div>
 
               <p className="mt-2 text-emerald-700 font-semibold">
                 Spezialistin für angewandte Kinästhetik
