@@ -24,11 +24,7 @@ export default function Team() {
 
           {/* Rina */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
-            <img
-              src="div className="p-8">
-              <h3 className="text-3xl font-bold text-slate-900">
-                Alge Rina
-              </h3>
+            {public/rina.jpg}
 
               <p className="mt-2 text-emerald-700 font-semibold">
                 Spezialistin für angewandte Kinästhetik
@@ -77,8 +73,7 @@ export default function Team() {
           {/* Barbara */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
 
-            /barbera.jpg
-            <div className="p-8">
+            {public/barbera.jpg}
               
               <h3 className="text-3xl font-bold text-slate-900">
                 Morciano-Alvarez Barbara
