@@ -32,9 +32,7 @@ export default function Hero() {
             </p>
 
             <p className="mt-8 text-lg text-slate-600 max-w-2xl">
-              Kinavita unterstützt Pflegeheime, Institutionen,
-              Stiftungen und Organisationen dabei, körperliche
-              Belastungen zu reduzieren, Ressourcen gezielt zu
+              Kinavita unterstützt Institutionen im Gesundheitswesen, Unternehmen und pflegende Angehörige dabei, körperliche Belastungen zu reduzieren, Ressourcen gezielt zu
               nutzen und gesundes Arbeiten langfristig zu fördern.
             </p>
 
