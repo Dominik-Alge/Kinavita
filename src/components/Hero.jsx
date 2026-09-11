@@ -30,16 +30,24 @@ export default function Hero() {
               nutzen und gesundes Arbeiten langfristig zu fördern.
             </p>
 
-            <button className="bg-emerald-700 text-white px-8 py-4 rounded-2xl shadow-lg hover:bg-emerald-800 transition">
-              Angebot entdecken
-            </button>
-            
-            <button className="border-2 border-emerald-700 text-emerald-700 px-8 py-4 rounded-2xl hover:bg-emerald-50 transition">
-              Gespräch vereinbaren
-            </button>
-            
+            {/* Buttons mit funktionierenden Sprungmarken */}
+            <div className="mt-8 flex flex-wrap gap-4">
+              <a
+                href="#angebote"
+                onClick={(e) => scrollToSection(e, 'angebote')}
+                className="inline-block bg-emerald-700 text-white px-8 py-4 rounded-2xl shadow-lg hover:bg-emerald-800 transition text-center"
+              >
+                Angebot entdecken
+              </a>
+              
+              <a
+                href="#kontakt"
+                onClick={(e) => scrollToSection(e, 'kontakt')}
+                className="inline-block border-2 border-emerald-700 text-emerald-700 px-8 py-4 rounded-2xl hover:bg-emerald-50 transition text-center"
+              >
+                Gespräch vereinbaren
+              </a>
             </div>
-
           </div>
 
           <div>
