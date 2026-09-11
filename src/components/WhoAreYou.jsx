@@ -85,57 +85,84 @@ export default function WhoAreYou() {
 
         </div>
 
+        {/* DETAILS FÜR INSTITUTIONEN */}
         {selected === "institution" && (
-          <div className="mt-12 rounded-3xl bg-white p-8 shadow-xl border border-slate-100 animate-fadeIn">
-
-            <h3 className="text-3xl font-bold text-slate-900">
-              Nutzen für Institutionen & Heimleitungen
-            </h3>
-
-            <ul className="mt-6 space-y-3 text-slate-700">
-              <li>✅ Voraussetzungen für weniger belastungsbedingte Ausfälle schaffen</li>
-              <li>✅ Mitarbeitende langfristig gesund erhalten</li>
-              <li>✅ Arbeitgeberattraktivität stärken</li>
-              <li>✅ Pflegequalität fördern</li>
-              <li>✅ Gesundheitsförderung nachhaltig verankern</li>
-            </ul>
-
+          <div className="mt-12 rounded-3xl bg-white p-8 shadow-xl border border-slate-100 animate-fadeIn flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+            <div>
+              <h3 className="text-3xl font-bold text-slate-900">
+                Nutzen für Institutionen & Heimleitungen
+              </h3>
+              <ul className="mt-6 space-y-3 text-slate-700">
+                <li>✅ Voraussetzungen für weniger belastungsbedingte Ausfälle schaffen</li>
+                <li>✅ Mitarbeitende langfristig gesund erhalten</li>
+                <li>✅ Arbeitgeberattraktivität stärken</li>
+                <li>✅ Pflegequalität fördern</li>
+                <li>✅ Gesundheitsförderung nachhaltig verankern</li>
+              </ul>
+            </div>
+            <div className="flex-shrink-0">
+              <a
+                href="#kontakt"
+                className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 text-center"
+              >
+                Jetzt unverbindliche Inhouse-Offerte anfordern
+              </a>
+            </div>
           </div>
         )}
 
+        {/* DETAILS FÜR MITARBEITENDE */}
         {selected === "mitarbeiter" && (
-          <div className="mt-12 rounded-3xl bg-white p-8 shadow-xl border border-slate-100 animate-fadeIn">
-
-            <h3 className="text-3xl font-bold text-slate-900">
-              Nutzen für Mitarbeitende
-            </h3>
-
-            <ul className="mt-6 space-y-3 text-slate-700">
-              <li>✅ Rücken entlasten</li>
-              <li>✅ Bewegungsabläufe besser verstehen</li>
-              <li>✅ Gesünder arbeiten</li>
-              <li>✅ Belastungen reduzieren</li>
-              <li>✅ Langfristig arbeitsfähig bleiben</li>
-            </ul>
-
+          <div className="mt-12 rounded-3xl bg-white p-8 shadow-xl border border-slate-100 animate-fadeIn flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+            <div>
+              <h3 className="text-3xl font-bold text-slate-900">
+                Nutzen für Mitarbeitende
+              </h3>
+              <ul className="mt-6 space-y-3 text-slate-700">
+                <li>✅ Rücken entlasten</li>
+                <li>✅ Bewegungsabläufe besser verstehen</li>
+                <li>✅ Gesünder arbeiten</li>
+                <li>✅ Belastungen reduzieren</li>
+                <li>✅ Langfristig arbeitsfähig bleiben</li>
+              </ul>
+            </div>
+            <div className="flex-shrink-0">
+              <a
+                href="#kontakt"
+                className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 text-center"
+              >
+                Weiterbildung anfragen
+              </a>
+            </div>
           </div>
         )}
 
+        {/* DETAILS FÜR ANGEHÖRIGE */}
         {selected === "angehoerige" && (
-          <div className="mt-12 rounded-3xl bg-white p-8 shadow-xl border border-slate-100 animate-fadeIn">
-
-            <h3 className="text-3xl font-bold text-slate-900">
-              Nutzen für Angehörige
-            </h3>
-
-            <ul className="mt-6 space-y-3 text-slate-700">
-              <li>✅ Sicherheit gewinnen</li>
-              <li>✅ Kompetenzen aufbauen</li>
-              <li>✅ Selbstständigkeit fördern</li>
-              <li>✅ Unterstützung im Alltag erhalten</li>
-              <li>✅ Bewegungen sicher begleiten</li>
-            </ul>
-
+          <div className="mt-12 rounded-3xl bg-white p-8 shadow-xl border border-slate-100 animate-fadeIn flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+            <div>
+              <h3 className="text-3xl font-bold text-slate-900">
+                Nutzen für Angehörige
+              </h3>
+              <ul className="mt-6 space-y-3 text-slate-700">
+                <li>✅ Sicherheit gewinnen</li>
+                <li>✅ Kompetenzen aufbauen</li>
+                <li>✅ Selbstständigkeit fördern</li>
+                <li>✅ Unterstützung im Alltag erhalten</li>
+                <li>✅ Bewegungen sicher begleiten</li>
+              </ul>
+              <p className="mt-4 text-xs text-slate-500 italic">
+                Hinweis: Viele Schweizer Krankenkassen beteiligen sich über die Zusatzversicherung an den Kosten.
+              </p>
+            </div>
+            <div className="flex-shrink-0">
+              <a
+                href="#kontakt"
+                className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 text-center"
+              >
+                Kostenloses Erstgespräch buchen
+              </a>
+            </div>
           </div>
         )}
 
