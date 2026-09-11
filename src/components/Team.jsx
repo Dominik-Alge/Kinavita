@@ -22,8 +22,18 @@ export default function Team() {
         <div className="mt-16 grid gap-10 lg:grid-cols-2">
 
           {/* Rina */}
-          <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
-            <div className="p-8">
+          <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden flex flex-col">
+            {/* Bildbereich oberhalb des Textes */}
+            <div className="h-80 w-full bg-slate-200 overflow-hidden">
+              <img 
+                src="/rina.jpg" 
+                alt="Alge Rina" 
+                className="w-full h-full object-cover object-top transition duration-500 hover:scale-105"
+              />
+            </div>
+            
+            <div className="p-8 flex-1 flex flex-col justify-between">
+              <div>
 
               <h3 className="text-3xl font-bold text-slate-900">
                 Alge Rina
@@ -71,8 +81,18 @@ export default function Team() {
           </div>
 
           {/* Barbara */}
-          <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
-            <div className="p-8">
+          <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden flex flex-col">
+            {/* Bildbereich oberhalb des Textes */}
+            <div className="h-80 w-full bg-slate-200 overflow-hidden">
+              <img 
+                src="/barbera.jpg" 
+                alt="Morciano-Alvarez Barbara" 
+                className="w-full h-full object-cover object-top transition duration-500 hover:scale-105"
+              />
+            </div>
+
+            <div className="p-8 flex-1 flex flex-col justify-between">
+              <div>
 
               <h3 className="text-3xl font-bold text-slate-900">
                 Morciano-Alvarez Barbara
