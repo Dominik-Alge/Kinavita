@@ -120,17 +120,17 @@ export default function Team() {
           </div>
 
           {/* BARBARA MORCIANO-ALVAREZ */}
-          <div className="bg-slate-50 rounded-3xl shadow-xl border border-slate-100 overflow-hidden flex flex-col h-full">
-            <div className="w-full h-80 bg-slate-200 overflow-hidden relative">
-              <img 
-                src="/barbara.jpg" 
-                alt="Morciano-Alvarez Barbara" 
-                className="w-full h-full object-cover object-center"
-              />
-              <div className="absolute top-4 left-4 bg-emerald-700 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow">
-                Über 20 Jahre Klinikerfahrung
+            <div className="bg-slate-50 rounded-3xl shadow-xl border border-slate-100 overflow-hidden flex flex-col h-full">
+              <div className="w-full h-80 bg-slate-200 overflow-hidden relative">
+                <img 
+                  src="/barbara.jpg" 
+                  alt="Morciano-Alvarez Barbara" 
+                  className="w-full h-full object-cover object-center" 
+                />
+                <div className="absolute top-4 left-4 bg-emerald-700 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow">
+                  Über 20 Jahre Erfahrung
+                </div>
               </div>
-            </div>
 
             <div className="p-8 flex-1 flex flex-col justify-between">
               <div>
