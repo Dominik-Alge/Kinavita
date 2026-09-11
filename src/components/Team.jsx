@@ -47,15 +47,17 @@ export default function Team() {
                   <span className="text-slate-500 font-medium text-sm">mit eidgenössischem Fachausweis</span>
                 </p>
 
-                {/* Tab Navigation */}
+                {/* Tab Navigation Rina */}
                 <div className="mt-6 flex border-b border-slate-200">
                   <button 
+                    type="button"
                     onClick={() => setRinaTab('focus')}
                     className={`pb-2 px-4 font-medium text-sm transition-all ${rinaTab === 'focus' ? 'border-b-2 border-emerald-700 text-emerald-700 font-semibold' : 'text-slate-500 hover:text-slate-800'}`}
                   >
                     Schwerpunkt & Nutzen
                   </button>
                   <button 
+                    type="button"
                     onClick={() => setRinaTab('cv')}
                     className={`pb-2 px-4 font-medium text-sm transition-all ${rinaTab === 'cv' ? 'border-b-2 border-emerald-700 text-emerald-700 font-semibold' : 'text-slate-500 hover:text-slate-800'}`}
                   >
@@ -66,7 +68,7 @@ export default function Team() {
                 {/* Tab Content Rina */}
                 <div className="mt-6 min-h-[220px]">
                   {rinaTab === 'focus' ? (
-                    <div className="space-y-4 text-slate-600 dynamic-fade-in">
+                    <div className="space-y-4 text-slate-600">
                       <p className="italic font-medium text-slate-700">
                         „Ich begleite Teams, Institutionen und pflegende Angehörige dabei, alltägliche Bewegungen gesundheitsfördernd und kräfteschonend zu gestalten.“
                       </p>
@@ -77,7 +79,7 @@ export default function Team() {
                       </ul>
                     </div>
                   ) : (
-                    <div className="space-y-4 text-sm text-slate-600 dynamic-fade-in">
+                    <div className="space-y-4 text-sm text-slate-600">
                       <div>
                         <h4 className="font-bold text-slate-800 mb-1">Praxisstationen:</h4>
                         <p>• Seit 2019: Altersheim Geserhus Rebstein</p>
@@ -95,10 +97,10 @@ export default function Team() {
                 </div>
               </div>
 
-              {/* Buttons */}
+              {/* Buttons Rina */}
               <div className="mt-8 flex flex-wrap gap-4 pt-4 border-t border-slate-100">
                 <a
-                  href="https://www.kinaesthetics.ch/trainerinnenliste.cfm?trainer_id=7781"
+                  href="https://kinaesthetics.ch"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 px-5 py-3 bg-emerald-700 text-white rounded-xl font-medium hover:bg-emerald-800 transition text-center text-sm shadow-sm"
@@ -106,7 +108,7 @@ export default function Team() {
                   Offizielles Trainer-Profil
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/rina-alge-64511b386/"
+                  href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100 font-medium transition text-center text-sm text-slate-700"
@@ -138,15 +140,17 @@ export default function Team() {
                   <span className="text-slate-500 font-medium text-sm">mit eidgenössischem Fachausweis</span>
                 </p>
 
-                {/* Tab Navigation */}
+                {/* Tab Navigation Barbara */}
                 <div className="mt-6 flex border-b border-slate-200">
                   <button 
+                    type="button"
                     onClick={() => setBarbaraTab('focus')}
                     className={`pb-2 px-4 font-medium text-sm transition-all ${barbaraTab === 'focus' ? 'border-b-2 border-emerald-700 text-emerald-700 font-semibold' : 'text-slate-500 hover:text-slate-800'}`}
                   >
                     Schwerpunkt & Nutzen
                   </button>
                   <button 
+                    type="button"
                     onClick={() => setBarbaraTab('cv')}
                     className={`pb-2 px-4 font-medium text-sm transition-all ${barbaraTab === 'cv' ? 'border-b-2 border-emerald-700 text-emerald-700 font-semibold' : 'text-slate-500 hover:text-slate-800'}`}
                   >
@@ -179,6 +183,3 @@ export default function Team() {
                         <h4 className="font-bold text-slate-800 mb-1">Meilensteine:</h4>
                         <p>• Seit 2022: Spezialistin in angewandter Kinaesthetics</p>
                         <p>• 2022 - 2025: Kinaesthetics-Trainer-Ausbildung (Stufe 1 & 2)</p>
-                        <p>• Dipl. Pflegefachfrau HF mit jahrzehntelanger Expertise</p>
-                      </div>
-                    </div>
