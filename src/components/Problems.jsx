@@ -4,20 +4,20 @@ const challenges = [
   {
     icon: "🩺",
     title: "Körperliche Belastung",
-    text: "Rücken- und Bewegungsbeschwerden gehören zu den häufigsten Belastungen im Pflege- und Betreuungsalltag.",
-    details: "Hier kommt dein vertiefender Text hin: Welche genauen Belastungen treten auf? Welche Muskelgruppen sind betroffen? Warum führt falsches Heben langfristig zu Problemen?",
+    text: "Rücken-, Schulter- und Gelenkbeschwerden gehören zu den häufigsten Belastungen im Pflege- und Betreuungsalltag.",
+    details: "Transfers, Mobilisationen und alltägliche Unterstützungsleistungen fordern Mitarbeitende täglich körperlich heraus. Wiederholte Belastungen, ungünstige Bewegungsmuster und Zeitdruck können langfristig zu Beschwerden und gesundheitlichen Einschränkungen führen. Durch gezielte Bewegungs- und Handlungskompetenz lassen sich Belastungen reduzieren und Ressourcen besser nutzen.",
   },
   {
     icon: "📉",
     title: "Belastungsbedingte Ausfälle",
     text: "Jeder Ausfall belastet Mitarbeitende, Teams, Qualität und Organisation.",
-    details: "Vertiefung zu Ausfällen: Wie wirkt sich ein Ausfall auf den Personalschlüssel aus? Welche wirtschaftlichen Folgen hat das für die Institution?",
+    details: "Krankheitsbedingte Absenzen führen oft zu Mehrbelastungen für das gesamte Team. Dienste müssen umgeplant, kurzfristige Lösungen gefunden und zusätzliche Ressourcen eingesetzt werden. Die Folgen sind steigender Druck auf Mitarbeitende, höhere Kosten und eine zunehmende Belastung der gesamten Organisation.",
   },
   {
     icon: "👥",
     title: "Fachkräftemangel",
     text: "Gesunde und langfristig arbeitsfähige Mitarbeitende werden immer wichtiger.",
-    details: "Vertiefung zum Fachkräftemangel: Warum ist die Mitarbeiterbindung in der Pflege heute der wichtigste Hebel? Wie hilft Prävention bei der Rekrutierung?",
+    details: "Qualifizierte Fachkräfte zu gewinnen und langfristig zu halten gehört zu den grössten Herausforderungen im Gesundheitswesen. Institutionen, die aktiv in die Gesundheit, Arbeitsfähigkeit und Entwicklung ihrer Mitarbeitenden investieren, stärken nicht nur ihre Attraktivität als Arbeitgeber, sondern sichern auch nachhaltig die Qualität der Betreuung und Pflege.",
   },
 ];
 
