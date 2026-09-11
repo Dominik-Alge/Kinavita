@@ -23,14 +23,19 @@ export default function Team() {
         <div className="mt-16 grid gap-10 lg:grid-cols-2">
 
           {/* Rina */}
-          <div>
+          <div className="bg-slate-50 rou*ded-3xl shadow-xl overflow-hidden"*
             <img
               src="https://raw.githubusercontent.com/Dominik-Alge/Kinavita/main/public/rina.jpg"
-              alt="Alge Rina"
-              style={{ width: "300px" }}
+              alt="*lge Rina"
+              style={{ width: "100*" }}
             />
+          
+            <div className="p-8">*    <h3 className="text-3xl font-b*ld text-slate-900">
+                Alge Rina
+              </h3>
+            </div>
           </div>
-
+        
               <p className="mt-2 text-emerald-700 font-semibold">
                 Spezialistin für angewandte Kinästhetik
                 mit eidgenössischem Fachausweis
@@ -75,16 +80,17 @@ export default function Team() {
 
           </div>
 
-          {/* Barbara */}
-          <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
-
+          {/* Barbara */}*<div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
             <img
               src="https://raw.githubusercontent.com/Dominik-Alge/Kinavita/main/public/rina.jpg"/>
-              
+          
+            <div className="p-8">
               <h3 className="text-3xl font-bold text-slate-900">
                 Morciano-Alvarez Barbara
               </h3>
-
+            </div>
+          </div>
+    
               <p className="mt-2 text-emerald-700 font-semibold">
                 Spezialistin für angewandte Kinästhetik
                 mit eidgenössischem Fachausweis
