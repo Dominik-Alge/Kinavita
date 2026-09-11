@@ -4,26 +4,26 @@ const values = [
   {
     icon: "🌿",
     title: "Ressourcen statt Defizite",
-    text: "Der Fokus liegt auf den vorhandenen Fähigkeiten von Mitarbeitenden und betreuten Menschen. Statt Defizite auszugleichen, werden Ressourcen gezielt wahrgenommen und genutzt.",
-    details: "Hier vertiefen: Wie sieht das in der Praxis aus? Pflegebedürftige Menschen werden nicht einfach gehoben, sondern bewegen sich im Rahmen ihrer eigenen Möglichkeiten mit.",
+    text: "Menschen werden in ihren vorhandenen Fähigkeiten unterstützt statt in ihrer Abhängigkeit bestätigt.",
+    details: "Kinaesthetics fördert die aktive Beteiligung von betreuten Menschen an alltäglichen Bewegungen. Dadurch werden vorhandene Ressourcen gezielt genutzt, die Selbstständigkeit gestärkt und die Lebensqualität erhöht. Gleichzeitig reduziert sich der körperliche Aufwand für Mitarbeitende.",
   },
   {
     icon: "🩺",
     title: "Gesundheit fördern",
-    text: "Bewusstere Bewegungsabläufe können dazu beitragen, körperliche Belastungen im Pflege- und Betreuungsalltag zu reduzieren.",
-    details: "Hier vertiefen: Kinästhetik schützt die Wirbelsäule der Pflegenden direkt im Transferprozess, ohne dass zeitaufwendige Hilfsmittel den Fluss stören.",
+    text: "Weniger körperliche Belastung durch bewusste und effiziente Bewegungsabläufe.",
+    details: "Mitarbeitende lernen, Bewegungen gezielt zu gestalten statt Kraft einzusetzen. Dies kann Rücken, Schultern und Gelenke entlasten und dazu beitragen, belastungsbedingte Beschwerden langfristig zu reduzieren. Gesunde Mitarbeitende bleiben leistungsfähig und können ihren Beruf länger mit Freude ausüben.",
   },
   {
     icon: "👥",
     title: "Mitarbeitende stärken",
-    text: "Gesunde und kompetente Mitarbeitende bilden die Grundlage für stabile Teams und eine hohe Pflegequalität.",
-    details: "Hier vertiefen: Durch Schulungen gewinnen Teams an Sicherheit, die Fehlerquote sinkt und die Zufriedenheit am Arbeitsplatz steigt messbar.",
+    text: "Kompetente und gesunde Mitarbeitende sind die Grundlage erfolgreicher Teams.",
+    details: "Praxisnahe Schulungen schaffen Sicherheit im Arbeitsalltag und stärken die Handlungskompetenz jeder einzelnen Fachperson. Mitarbeitende gewinnen Vertrauen in ihre Fähigkeiten, erleben mehr Selbstwirksamkeit und tragen aktiv zu einer positiven Teamkultur bei.",
   },
   {
     icon: "📈",
     title: "Nachhaltig wirksam",
-    text: "Nicht einzelne Schulungstage, sondern Veränderung und Entwicklung im täglichen Arbeiten.",
-    details: "Hier vertiefen: Unser Ansatz begleitet die Institution langfristig. Durch Praxisbegleitungen direkt am Bett verpufft das Wissen nicht nach dem Kurs.",
+    text: "Nicht kurzfristige Lösungen, sondern langfristige Veränderungen im Alltag.",
+    details: "Durch Kurse, Praxisbegleitungen und kontinuierliche Entwicklung wird Kinaesthetics nachhaltig in den Arbeitsalltag integriert. Das Gelernte bleibt nicht Theorie, sondern wird Teil der täglichen Praxis und entfaltet dadurch langfristige Wirkung für Mitarbeitende, Klienten und Organisationen.",
   },
 ];
 
