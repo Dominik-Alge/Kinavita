@@ -23,12 +23,12 @@ export default function Team() {
 
           {/* Rina */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden flex flex-col">
-            {/* Bildbereich oberhalb des Textes */}
-            <div className="h-80 w-full bg-slate-200 overflow-hidden">
+            {/* Bildbereich - Ausrichtung auf das Zentrum gesetzt */}
+            <div className="w-full h-80 bg-slate-200 overflow-hidden">
               <img 
                 src="/rina.jpg" 
                 alt="Alge Rina" 
-                className="w-full h-full object-cover object-top transition duration-500 hover:scale-105"
+                className="w-full h-full object-cover object-center" 
               />
             </div>
             
@@ -59,19 +59,19 @@ export default function Team() {
 
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
-                  href="https://www.kinaesthetics.ch/trainerinnenliste.cfm?trainer_id=7781"
+                  href="https://kinaesthetics.ch"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-5 py-3 bg-emerald-700 text-white rounded-xl font-medium hover:bg-emerald-800 transition"
+                  className="px-5 py-3 bg-emerald-700 text-white rounded-xl font-medium hover:bg-emerald-800 transition text-center"
                 >
                   Kinaesthetics Profil
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/rina-alge-64511b386/"
+                  href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100 font-medium transition"
+                  className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100 font-medium transition text-center"
                 >
                   LinkedIn
                 </a>
@@ -81,12 +81,12 @@ export default function Team() {
 
           {/* Barbara */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden flex flex-col">
-            {/* Bildbereich oberhalb des Textes */}
-            <div className="h-80 w-full bg-slate-200 overflow-hidden">
+            {/* Bildbereich - Ausrichtung auf das Zentrum gesetzt */}
+            <div className="w-full h-80 bg-slate-200 overflow-hidden">
               <img 
                 src="/barbera.jpg" 
                 alt="Morciano-Alvarez Barbara" 
-                className="w-full h-full object-cover object-top transition duration-500 hover:scale-105"
+                className="w-full h-full object-cover object-center"
               />
             </div>
 
@@ -117,19 +117,19 @@ export default function Team() {
 
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
-                  href="https://www.kinaesthetics.ch/trainerinnenliste.cfm?trainer_id=7801"
+                  href="https://kinaesthetics.ch"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-5 py-3 bg-emerald-700 text-white rounded-xl font-medium hover:bg-emerald-800 transition"
+                  className="px-5 py-3 bg-emerald-700 text-white rounded-xl font-medium hover:bg-emerald-800 transition text-center"
                 >
                   Kinaesthetics Profil
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/barbara-morciano-alvarez-0872451b8/"
+                  href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100 font-medium transition"
+                  className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100 font-medium transition text-center"
                 >
                   LinkedIn
                 </a>
@@ -143,4 +143,3 @@ export default function Team() {
     </section>
   );
 }
-
