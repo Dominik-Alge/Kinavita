@@ -100,7 +100,7 @@ export default function Team() {
               {/* Buttons Rina */}
               <div className="mt-8 flex flex-wrap gap-4 pt-4 border-t border-slate-100">
                 <a
-                  href="https://kinaesthetics.ch"
+                  href="https://www.kinaesthetics.ch/trainerinnenliste.cfm?trainer_id=7781"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 px-5 py-3 bg-emerald-700 text-white rounded-xl font-medium hover:bg-emerald-800 transition text-center text-sm shadow-sm"
@@ -108,7 +108,7 @@ export default function Team() {
                   Offizielles Trainer-Profil
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/rina-alge-64511b386/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100 font-medium transition text-center text-sm text-slate-700"
@@ -194,7 +194,7 @@ export default function Team() {
               {/* Buttons Barbara */}
               <div className="mt-8 flex flex-wrap gap-4 pt-4 border-t border-slate-100">
                 <a
-                  href="https://kinaesthetics.ch"
+                  href="https://www.kinaesthetics.ch/trainerinnenliste.cfm?trainer_id=7801"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 px-5 py-3 bg-emerald-700 text-white rounded-xl font-medium hover:bg-emerald-800 transition text-center text-sm shadow-sm"
@@ -202,7 +202,7 @@ export default function Team() {
                   Offizielles Trainer-Profil
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/barbara-morciano-alvarez-0872451b8/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100 font-medium transition text-center text-sm text-slate-700"
