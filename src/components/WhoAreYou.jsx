@@ -22,15 +22,15 @@ export default function WhoAreYou() {
 
           <button
             onClick={() => setSelected("institution")}
-            className={`rounded-3xl p-8 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition text-left cursor-pointer border-2 ${
+            className={`rounded-3xl p-8 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300 text-left cursor-pointer border-2 ${
               selected === "institution"
                 ? "bg-emerald-50 border-emerald-500"
-                : "bg-slate-50 border-transparent"
+                : "bg-slate-50 border-transparent hover:bg-slate-100 hover:border-slate-300"
             }`}
           >
             <div className="text-5xl mb-4">🏥</div>
 
-            <h3 className="text-2xl font-bold">
+            <h3 className="text-2xl font-bold text-slate-900">
               Institutionen & Stiftungen
             </h3>
 
@@ -43,15 +43,15 @@ export default function WhoAreYou() {
 
           <button
             onClick={() => setSelected("mitarbeiter")}
-            className={`rounded-3xl p-8 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition text-left cursor-pointer border-2 ${
+            className={`rounded-3xl p-8 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300 text-left cursor-pointer border-2 ${
               selected === "mitarbeiter"
                 ? "bg-emerald-50 border-emerald-500"
-                : "bg-slate-50 border-transparent"
+                : "bg-slate-50 border-transparent hover:bg-slate-100 hover:border-slate-300"
             }`}
           >
             <div className="text-5xl mb-4">👩‍⚕️</div>
 
-            <h3 className="text-2xl font-bold">
+            <h3 className="text-2xl font-bold text-slate-900">
               Mitarbeitende
             </h3>
 
@@ -64,15 +64,15 @@ export default function WhoAreYou() {
 
           <button
             onClick={() => setSelected("angehoerige")}
-            className={`rounded-3xl p-8 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition text-left cursor-pointer border-2 ${
+            className={`rounded-3xl p-8 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300 text-left cursor-pointer border-2 ${
               selected === "angehoerige"
                 ? "bg-emerald-50 border-emerald-500"
-                : "bg-slate-50 border-transparent"
+                : "bg-slate-50 border-transparent hover:bg-slate-100 hover:border-slate-300"
             }`}
           >
             <div className="text-5xl mb-4">🏡</div>
 
-            <h3 className="text-2xl font-bold">
+            <h3 className="text-2xl font-bold text-slate-900">
               Angehörige
             </h3>
 
@@ -86,13 +86,13 @@ export default function WhoAreYou() {
         </div>
 
         {selected === "institution" && (
-          <div className="mt-12 rounded-3xl bg-white p-8 shadow-xl border">
+          <div className="mt-12 rounded-3xl bg-white p-8 shadow-xl border border-slate-100 animate-fadeIn">
 
-            <h3 className="text-3xl font-bold">
+            <h3 className="text-3xl font-bold text-slate-900">
               Nutzen für Institutionen & Heimleitungen
             </h3>
 
-            <ul className="mt-6 space-y-3">
+            <ul className="mt-6 space-y-3 text-slate-700">
               <li>✅ Voraussetzungen für weniger belastungsbedingte Ausfälle schaffen</li>
               <li>✅ Mitarbeitende langfristig gesund erhalten</li>
               <li>✅ Arbeitgeberattraktivität stärken</li>
@@ -104,13 +104,13 @@ export default function WhoAreYou() {
         )}
 
         {selected === "mitarbeiter" && (
-          <div className="mt-12 rounded-3xl bg-white p-8 shadow-xl border">
+          <div className="mt-12 rounded-3xl bg-white p-8 shadow-xl border border-slate-100 animate-fadeIn">
 
-            <h3 className="text-3xl font-bold">
+            <h3 className="text-3xl font-bold text-slate-900">
               Nutzen für Mitarbeitende
             </h3>
 
-            <ul className="mt-6 space-y-3">
+            <ul className="mt-6 space-y-3 text-slate-700">
               <li>✅ Rücken entlasten</li>
               <li>✅ Bewegungsabläufe besser verstehen</li>
               <li>✅ Gesünder arbeiten</li>
@@ -122,13 +122,13 @@ export default function WhoAreYou() {
         )}
 
         {selected === "angehoerige" && (
-          <div className="mt-12 rounded-3xl bg-white p-8 shadow-xl border">
+          <div className="mt-12 rounded-3xl bg-white p-8 shadow-xl border border-slate-100 animate-fadeIn">
 
-            <h3 className="text-3xl font-bold">
+            <h3 className="text-3xl font-bold text-slate-900">
               Nutzen für Angehörige
             </h3>
 
-            <ul className="mt-6 space-y-3">
+            <ul className="mt-6 space-y-3 text-slate-700">
               <li>✅ Sicherheit gewinnen</li>
               <li>✅ Kompetenzen aufbauen</li>
               <li>✅ Selbstständigkeit fördern</li>
