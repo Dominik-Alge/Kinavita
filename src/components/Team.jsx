@@ -28,9 +28,7 @@ export default function Team() {
             <img
               src="/rina.jpg"
               alt="Alge Rina"
-              class
-
-              <h3 className="text-3xl font-bold text-slate-900">
+              className="w-full h-96 object>
                 Alge Rina
               </h3>
 
@@ -83,10 +81,7 @@ export default function Team() {
 
             <img
               src="/barbera.jpg"
-              alt="Barbara Morciano-Alvarez"
-              class
-
-              <h3 className="text-3xl font-bold text-slate-900">
+              alt="Barbarah3 className="text-3xl font-bold text-slate-900">
                 Morciano-Alvarez Barbara
               </h3>
 
