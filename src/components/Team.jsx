@@ -1,5 +1,4 @@
 export default function Team() {
-  console.log("TEAM LOADED");
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
@@ -23,19 +22,13 @@ export default function Team() {
         <div className="mt-16 grid gap-10 lg:grid-cols-2">
 
           {/* Rina */}
-          <div className="bg-slate-50 rouded-3xl shadow-xl overflow-hidden">
-            <img
-              src="https://raw.githubusercontent.com/Dominik-Alge/Kinavita/main/public/rina.jpg"
-              alt="*lge Rina"
-              style={{ width: "100*" }}
-            />
-          
-            <div className="p-8">*    <h3 className="text-3xl font-b*ld text-slate-900">
+          <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
+            <div className="p-8">
+
+              <h3 className="text-3xl font-bold text-slate-900">
                 Alge Rina
               </h3>
-            </div>
-          </div>
-        
+
               <p className="mt-2 text-emerald-700 font-semibold">
                 Spezialistin für angewandte Kinästhetik
                 mit eidgenössischem Fachausweis
@@ -55,7 +48,6 @@ export default function Team() {
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
-
                 <a
                   href="https://www.kinaesthetics.ch/trainerinnenliste.cfm?trainer_id=7781"
                   target="_blank"
@@ -73,25 +65,19 @@ export default function Team() {
                 >
                   LinkedIn
                 </a>
-
               </div>
 
             </div>
-
           </div>
 
-          {/* Barbara */}*
+          {/* Barbara */}
           <div className="bg-slate-50 rounded-3xl shadow-xl overflow-hidden">
-            <img
-              src="https://raw.githubusercontent.com/Dominik-Alge/Kinavita/main/public/rina.jpg"/>
-          
             <div className="p-8">
+
               <h3 className="text-3xl font-bold text-slate-900">
                 Morciano-Alvarez Barbara
               </h3>
-            </div>
-          </div>
-    
+
               <p className="mt-2 text-emerald-700 font-semibold">
                 Spezialistin für angewandte Kinästhetik
                 mit eidgenössischem Fachausweis
@@ -113,7 +99,6 @@ export default function Team() {
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
-
                 <a
                   href="https://www.kinaesthetics.ch/trainerinnenliste.cfm?trainer_id=7801"
                   target="_blank"
@@ -131,11 +116,9 @@ export default function Team() {
                 >
                   LinkedIn
                 </a>
-
               </div>
 
             </div>
-
           </div>
 
         </div>
