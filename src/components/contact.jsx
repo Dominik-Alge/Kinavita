@@ -17,29 +17,34 @@ export default function Contact() {
           Wir freuen uns auf Ihre Kontaktaufnahme.
         </p>
 
-        <div className="mt-12 bg-white rounded-3xl p-8 shadow-lg">
-
+        <div className="mt-12 bg-white rounded-3xl p-8 shadow-lg max-w-md mx-auto">
           <p className="text-2xl font-bold text-slate-900">
             Alge Rina
           </p>
 
-          <p className="mt-6 text-lg text-slate-600">
-            📧 rina.alge@kinaesthetics-net.ch
-          </p>
-
-          <p className="mt-3 text-lg text-slate-600">
-            📱 +41 79 709 65 59
-          </p>
+          <div className="mt-6 space-y-3 text-lg text-slate-600">
+            <p>
+              📧{' '}
+              <a href="mailto:rina.alge@kinaesthetics-net.ch" className="hover:text-emerald-700 transition">
+                rina.alge@kinaesthetics-net.ch
+              </a>
+            </p>
+            <p>
+              📱{' '}
+              <a href="tel:+41797096559" className="hover:text-emerald-700 transition">
+                +41 79 709 65 59
+              </a>
+            </p>
+          </div>
 
           <div className="mt-8">
             <a
               href="mailto:rina.alge@kinaesthetics-net.ch"
-              className="inline-block rounded-xl bg-emerald-700 px-6 py-4 text-white font-semibold hover:bg-emerald-800 transition"
+              className="inline-block w-full sm:w-auto rounded-xl bg-emerald-700 px-6 py-4 text-white font-semibold hover:bg-emerald-800 transition"
             >
               E-Mail schreiben
             </a>
           </div>
-
         </div>
 
       </div>
