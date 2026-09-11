@@ -30,15 +30,13 @@ export default function Hero() {
               nutzen und gesundes Arbeiten langfristig zu fördern.
             </p>
 
-            <div className="mt-10 flex flex-wrap gap-4">
-
-              <a
-                href="#angebote"
-                class </a>
+            <button className="bg-emerald-700 text-white px-8 py-4 rounded-2xl shadow-lg hover:bg-emerald-800 transition">
+              Angebot entdecken
+            </button>
             
-              #kontakt
-                Gespräch vereinbaren
-              </a>
+            <button className="border-2 border-emerald-700 text-emerald-700 px-8 py-4 rounded-2xl hover:bg-emerald-50 transition">
+              Gespräch vereinbaren
+            </button>
             
             </div>
 
