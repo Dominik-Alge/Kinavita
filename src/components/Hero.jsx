@@ -32,14 +32,14 @@ export default function Hero() {
 
             <div className="mt-10 flex flex-wrap gap-4">
 
-              <button className="bg-emerald-700 text-white px-8 py-4 rounded-2xl shadow-lg hover:bg-emerald-800 transition">
-                Angebot entdecken
-              </button>
-
-              <button className="border-2 border-emerald-700 text-emerald-700 px-8 py-4 rounded-2xl hover:bg-emerald-50 transition">
+              <a
+                href="#angebote"
+                class </a>
+            
+              #kontakt
                 Gespräch vereinbaren
-              </button>
-
+              </a>
+            
             </div>
 
           </div>
