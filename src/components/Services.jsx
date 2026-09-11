@@ -23,7 +23,7 @@ const serviceCategories = [
     borderColor: "border-slate-600",
     textColor: "text-slate-900",
     list: ["Beratungen", "Bewegung im Alltag", "Unterstützung zuhause", "Individuelle Begleitung"],
-    details: "Pflegende Angehörige leisten Grossartiges. Wir unterstützen Sie direkt im häuslichen Umfeld mit individueller Beratung, um alltägliche Bewegungen (wie das Aufstehen oder Umsetzen) für Sie und Ihre Liebsten spürbar zu erleichtern.",
+    details: "Pflegende Angehörige leisten Grossartiges. Wir beraten Sie direkt und diskret bei Ihnen zu Hause im gewohnten Umfeld. Zudem werden Kinaesthetics-Kurse für Angehörige in vielen Fällen von den Schweizer Krankenkassen (Zusatzversicherung) oder Entlastungsfonds finanziell unterstützt – fragen Sie uns einfach danach!",
   },
 ];
 
