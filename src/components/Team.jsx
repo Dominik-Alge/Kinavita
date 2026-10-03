@@ -73,7 +73,7 @@ export default function Team() {
                         „Ich begleite Teams, Institutionen und pflegende Angehörige dabei, alltägliche Bewegungen gesundheitsfördernd und kräfteschonend zu gestalten.“
                       </p>
                       <ul className="space-y-2 text-sm">
-                        <li>🎯 <strong>Spezialisierung:</strong> Langzeitpflege, Demenz & Begleitung im Alter.</li>
+                        <li>🎯 <strong>Spezialisierung:</strong> Langzeitpflege, Betreuung schwer beeinträchtiger als gelernte FABE, Demenz & Begleitung im Alter.</li>
                         <li>🗣️ <strong>Kurssprache:</strong> Deutsch</li>
                         <li>💡 <strong>Dein Vorteil:</strong> Direkt anwendbare Praxis-Tipps aus über einem Jahrzehnt angewandter Pflege- und Betreuungsarbeit.</li>
                       </ul>
