@@ -73,7 +73,7 @@ export default function Team() {
                         „Ich begleite Teams, Institutionen und pflegende Angehörige dabei, alltägliche Bewegungen gesundheitsfördernd und kräfteschonend zu gestalten.“
                       </p>
                       <ul className="space-y-2 text-sm">
-                        <li>🎯 <strong>Spezialisierung:</strong> Langzeitpflege, Betreuung schwer beeinträchtiger als gelernte FABE, Demenz & Begleitung im Alter.</li>
+                        <li>🎯 <strong>Spezialisierung:</strong> Menschen mit schwersten Beeinträchtigungen, Langzeitpflege, Demenz & Begleitung im Alter (gelernte FaBe).</li>
                         <li>🗣️ <strong>Kurssprache:</strong> Deutsch</li>
                         <li>💡 <strong>Dein Vorteil:</strong> Direkt anwendbare Praxis-Tipps aus über einem Jahrzehnt angewandter Pflege- und Betreuungsarbeit.</li>
                       </ul>
@@ -82,7 +82,8 @@ export default function Team() {
                     <div className="space-y-4 text-sm text-slate-600">
                       <div>
                         <h4 className="font-bold text-slate-800 mb-1">Praxisstationen:</h4>
-                        <p>• Seit 2019: Altersheim Geserhus Rebstein</p>
+                        <p>• Seit 2026: Stiftung Waldheim (Begleitung schwerst beeinträchtigter Menschen)</p>
+                        <p>• 2019 - 2026: Altersheim Geserhus Rebstein</p>
                         <p>• 2015 - 2019: Stütlihus Grabs (Wohnen im Alter)</p>
                         <p>• Frühere Stationen: Stiftung Kronbühl, AH Almendsberg</p>
                       </div>
@@ -120,18 +121,17 @@ export default function Team() {
           </div>
 
           {/* BARBARA MORCIANO-ALVAREZ */}
-            <div className="bg-slate-50 rounded-3xl shadow-xl border border-slate-100 overflow-hidden flex flex-col h-full">
-              <div className="w-full h-80 bg-slate-200 overflow-hidden relative">
-                <img 
-                  src="/barbara.jpg"
-                  alt="Morciano-Alvarez Barbara" 
-                  className="w-full h-full object-cover object-center" 
-                />
-
-                <div className="absolute top-4 left-4 bg-emerald-700 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow">
-                  Über 20 Jahre Erfahrung
-                </div>
+          <div className="bg-slate-50 rounded-3xl shadow-xl border border-slate-100 overflow-hidden flex flex-col h-full">
+            <div className="w-full h-80 bg-slate-200 overflow-hidden relative">
+              <img 
+                src="/barbara.jpg"
+                alt="Morciano-Alvarez Barbara" 
+                className="w-full h-full object-cover object-center" 
+              />
+              <div className="absolute top-4 left-4 bg-emerald-700 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow">
+                Über 20 Jahre Erfahrung
               </div>
+            </div>
 
             <div className="p-8 flex-1 flex flex-col justify-between">
               <div>
@@ -164,27 +164,24 @@ export default function Team() {
                   {barbaraTab === 'focus' ? (
                     <div className="space-y-4 text-slate-600">
                       <p className="italic font-medium text-slate-700">
-                        „Aus der Akut- und Rehapflege weiss ich, wie entscheidend Bewegungskompetenz für die Genesung und das Wohlbefinden im Alltag ist.“
+                        „Gemeinsam entwickeln wir Bewegungskompetenz für mehr Leichtigkeit im Pflegealltag.“
                       </p>
                       <ul className="space-y-2 text-sm">
-                        <li>🎯 <strong>Spezialisierung:</strong> Spitex, klinische Rehabilitation, Chirurgie & Urologie.</li>
-                        <li>🗣️ <strong>Kurssprachen:</strong> Deutsch, Italienisch, Spanisch</li>
-                        <li>💡 <strong>Dein Vorteil:</strong> Tiefes medizinisches Verständnis gepaart mit interkultureller Beratungskompetenz.</li>
+                        <li>🎯 <strong>Spezialisierung:</strong> Akutpflege, Rehabilitation & betriebliches Gesundheitsmanagement.</li>
+                        <li>🗣️ <strong>Kurssprache:</strong> Deutsch, Italienisch, Spanisch</li>
+                        <li>💡 <strong>Dein Vorteil:</strong> Langjährige Expertise in komplexen klinischen Settings.</li>
                       </ul>
                     </div>
                   ) : (
                     <div className="space-y-4 text-sm text-slate-600">
                       <div>
                         <h4 className="font-bold text-slate-800 mb-1">Praxisstationen:</h4>
-                        <p>• Seit 2018: Dipl. Pflegefachfrau, Spitex Sarganserland</p>
-                        <p>• 2008 - 2018: Kantonsspital Chur (Chirurgie / Urologie)</p>
-                        <p>• 2004 - 2008: Kliniken Valens (Rehabilitation)</p>
+                        <p>• Langjährige Tätigkeit in Schweizer Spitälern und Rehakliniken</p>
                       </div>
                       <div>
                         <h4 className="font-bold text-slate-800 mb-1">Meilensteine:</h4>
-                        <p>• Seit 2022: Spezialistin in angewandter Kinaesthetics</p>
-                        <p>• 2022 - 2025: Kinaesthetics-Trainer-Ausbildung (Stufe 1 & 2)</p>
-                        <p>• Dipl. Pflegefachfrau HF mit jahrzehntelanger Expertise</p>
+                        <p>• Eidg. Berufsprüfung Spezialistin Kinästhetik</p>
+                        <p>• Kinaesthetics-Trainer-Ausbildung</p>
                       </div>
                     </div>
                   )}
