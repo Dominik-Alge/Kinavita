@@ -120,12 +120,12 @@ export default function Team() {
             </div>
           </div>
 
-          {/* BARBARA MORCIANO-ALVAREZ */}
+          {/* BARBARA ALVAREZ */}
           <div className="bg-slate-50 rounded-3xl shadow-xl border border-slate-100 overflow-hidden flex flex-col h-full">
             <div className="w-full h-80 bg-slate-200 overflow-hidden relative">
               <img 
                 src="/barbara.jpg"
-                alt="Morciano-Alvarez Barbara" 
+                alt="Alvarez Barbara" 
                 className="w-full h-full object-cover object-center" 
               />
               <div className="absolute top-4 left-4 bg-emerald-700 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow">
@@ -135,7 +135,7 @@ export default function Team() {
 
             <div className="p-8 flex-1 flex flex-col justify-between">
               <div>
-                <h3 className="text-3xl font-bold text-slate-900">Morciano-Alvarez Barbara</h3>
+                <h3 className="text-3xl font-bold text-slate-900">Alvarez Barbara</h3>
                 <p className="mt-2 text-emerald-700 font-semibold leading-snug">
                   Spezialistin für angewandte Kinästhetik <br />
                   <span className="text-slate-500 font-medium text-sm">mit eidgenössischem Fachausweis</span>
@@ -199,7 +199,7 @@ export default function Team() {
                   Offizielles Trainer-Profil
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/barbara-morciano-alvarez-0872451b8/"
+                  href="https://www.linkedin.com/in/barbara-alvarez-0872451b8/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-3 border border-slate-300 rounded-xl hover:bg-slate-100 font-medium transition text-center text-sm text-slate-700"
